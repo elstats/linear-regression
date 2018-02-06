@@ -1,6 +1,6 @@
 {
   "name": "linear-regression",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple Linear Regression",
   "main": "dist/index.js",
   "scripts": {
