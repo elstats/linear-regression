@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/msn0/linear-regression/issues"
   },
-  "homepage": "https://github.com/msn0/linear-regression#readme"
+  "homepage": "https://github.com/msn0/linear-regression#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "dependencies": {}
 }
