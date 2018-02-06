@@ -4,7 +4,7 @@
   "description": "Simple Linear Regression",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --verbose && eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/msn0/linear-regression#readme",
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^0.25.0",
+    "eslint-config-helmut": "^3.0.0"
   },
   "dependencies": {}
 }
