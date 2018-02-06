@@ -20,5 +20,9 @@
     "ava": "^0.25.0",
     "eslint-config-helmut": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@elstats/covariance": "^1.1.0",
+    "stats-mean": "^1.0.0",
+    "stats-variance": "^1.0.0"
+  }
 }

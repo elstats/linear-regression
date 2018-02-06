@@ -1,7 +1,7 @@
 import test from 'ava';
 import linearRegression from './';
 
-test('should pass', t => {
+test('should calculate linear regression', t => {
     const given = [
         [43, 99],
         [21, 65],
@@ -13,8 +13,8 @@ test('should pass', t => {
 
     const expected = linearRegression(given);
 
-    t.is(expected, {
-        a: 65.1415715245131,
-        b: 0.38522498321020804
+    t.deepEqual(expected, {
+        a: 0.38522498321020804,
+        b: 65.1415715245131
     });
 });
