@@ -2,7 +2,7 @@
   "name": "linear-regression",
   "version": "1.0.2",
   "description": "Simple Linear Regression",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "ava --verbose && eslint . --fix",
     "prepare": "rollup -c"
