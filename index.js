@@ -1,10 +1,8 @@
-'use strict';
+import { calc as mean } from 'stats-mean';
+import { calc as variance } from 'stats-variance';
+import covariance from '@elstats/covariance';
 
-const mean = require('stats-mean').calc;
-const variance = require('stats-variance').calc;
-const covariance = require('@elstats/covariance');
-
-function linearRegression(data) {
+export default function linearRegression(data) {
     const X = data.map(x => x[0]);
     const Y = data.map(x => x[1]);
 
@@ -13,5 +11,3 @@ function linearRegression(data) {
 
     return { a, b };
 }
-
-module.exports = linearRegression;

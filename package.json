@@ -18,11 +18,28 @@
   "homepage": "https://github.com/msn0/linear-regression#readme",
   "devDependencies": {
     "ava": "^0.25.0",
-    "eslint-config-helmut": "^3.0.0"
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelrc-rollup": "^3.0.0",
+    "eslint-config-helmut": "^3.0.0",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^3.0.0"
   },
   "dependencies": {
     "@elstats/covariance": "^1.1.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
     "stats-mean": "^1.0.0",
     "stats-variance": "^1.0.0"
+  },
+  "ava": {
+    "concurrency": 4,
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
   }
 }
