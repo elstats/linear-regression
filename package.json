@@ -4,7 +4,8 @@
   "description": "Simple Linear Regression",
   "main": "index.js",
   "scripts": {
-    "test": "ava --verbose && eslint . --fix"
+    "test": "ava --verbose && eslint . --fix",
+    "prepare": "rollup -c"
   },
   "repository": {
     "type": "git",
