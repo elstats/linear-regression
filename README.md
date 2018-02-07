@@ -1,6 +1,6 @@
 # linear-regression
 
-Simple Linear Regression
+Simple Linear Regression. 
 
 ## Installation
 
@@ -23,6 +23,8 @@ linearRegression([
 ]);
 // { a: 0.4745265503156331, b: 0.1116728555514297 }
 ```
+
+where `a` and `b` are parameters of regressionline `y = a⋅x + b`.
 
 ## License
 
