@@ -5,13 +5,13 @@ Simple Linear Regression.
 ## Installation
 
 ```bash
-$ npm i @elstats/simple-linear-regression
+$ npm i @elstats/linear-regression
 ```
 
 ## Usage
 
 ```js
-import linearRegression from '@elstats/simple-linear-regression';
+import linearRegression from '@elstats/linear-regression';
 
 linearRegression([
     [1,   0.5],
