@@ -1,6 +1,6 @@
 {
-  "name": "linear-regression",
-  "version": "1.0.3",
+  "name": "@elstats/linear-regression",
+  "version": "1.1.0",
   "description": "Simple Linear Regression",
   "main": "dist/index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msn0/linear-regression.git"
+    "url": "git+https://github.com/elstats/linear-regression.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/msn0/linear-regression/issues"
+    "url": "https://github.com/elstats/linear-regression/issues"
   },
-  "homepage": "https://github.com/msn0/linear-regression#readme",
+  "homepage": "https://github.com/elstats/linear-regression#readme",
   "devDependencies": {
     "ava": "^0.25.0",
     "babel-plugin-external-helpers": "^6.22.0",
