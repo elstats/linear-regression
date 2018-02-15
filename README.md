@@ -1,6 +1,6 @@
 # linear-regression
 
-Simple Linear Regression. 
+Simple Linear Regression. https://en.wikipedia.org/wiki/Simple_linear_regression
 
 ## Installation
 
