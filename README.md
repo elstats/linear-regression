@@ -21,10 +21,10 @@ linearRegression([
     [5.2, 2.45],
     [6,   3]
 ]);
-// { a: 0.4745265503156331, b: 0.1116728555514297 }
+// { a: 0.4745265503156331, b: 0.1116728555514297, rSquared: 0.9898548897522457 }
 ```
 
-where `a` and `b` are parameters of regression line `y = a⋅x + b`.
+where `a` and `b` are parameters of regression line `y = a⋅x + b`. Besides slope `a` and y-intercept `b` [coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination) is returned as `rSquared`.
 
 ## License
 
