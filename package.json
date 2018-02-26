@@ -24,7 +24,7 @@
     "babel-register": "^6.26.0",
     "babelrc-rollup": "^3.0.0",
     "eslint-config-helmut": "^3.0.0",
-    "rollup": "^0.55.5",
+    "rollup": "^0.56.3",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^8.3.0",
     "rollup-plugin-node-resolve": "^3.0.3",
