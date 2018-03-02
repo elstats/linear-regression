@@ -1,6 +1,6 @@
 {
   "name": "@elstats/linear-regression",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Simple Linear Regression",
   "main": "dist/index.js",
   "scripts": {
