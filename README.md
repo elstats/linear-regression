@@ -1,4 +1,4 @@
-# linear-regression
+# linear-regression [![Build Status](https://travis-ci.org/elstats/linear-regression.svg?branch=master)](https://travis-ci.org/elstats/linear-regression)
 
 Simple Linear Regression. https://en.wikipedia.org/wiki/Simple_linear_regression
 
