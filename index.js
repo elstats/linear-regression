@@ -1,4 +1,4 @@
-import { calc as mean } from 'stats-mean';
+import mean from '@elstats/mean';
 import { calc as variance } from 'stats-variance';
 import covariance from '@elstats/covariance';
 
